@@ -13,11 +13,11 @@
   },
   "dependencies": {
     "moment": "^2.24.0",
-    "next": "^11.0.0",
+    "next": "^13.1.6",
     "qs": "^6.10.1",
     "react": "17.0.0",
     "react-dom": "17.0.0",
-    "react-markdown": "^4.2.2",
+    "react-markdown": "^8.0.5",
     "react-moment": "^0.9.6"
   },
   "license": "MIT",
