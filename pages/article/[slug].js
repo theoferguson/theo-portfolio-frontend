@@ -1,5 +1,4 @@
 import ReactMarkdown from "react-markdown"
-import Moment from "react-moment"
 import { fetchAPI } from "../../lib/api"
 import Layout from "../../components/layout"
 import NextImage from "../../components/image"
@@ -46,9 +45,9 @@ const Article = ({ article, categories }) => {
                 By {article.attributes.author.data.attributes.name}
               </p>
               <p className="uk-text-meta uk-margin-remove-top">
-                <Moment format="MMM Do YYYY">
+                <div>
                   {article.attributes.published_at}
-                </Moment>
+                </div>
               </p>
             </div>
           </div>
