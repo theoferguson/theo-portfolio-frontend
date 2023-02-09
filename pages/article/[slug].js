@@ -37,7 +37,9 @@ const Article = ({ article, categories }) => {
           <div className="uk-grid-small uk-flex-left" data-uk-grid="true">
             <div>
               {article.attributes.author.data.attributes.picture && (
-                <NextImage image={article.attributes.author.data.attributes.picture} />
+                <NextImage
+                  image={article.attributes.author.data.attributes.picture}
+                />
               )}
             </div>
             <div className="uk-width-expand">
@@ -45,9 +47,7 @@ const Article = ({ article, categories }) => {
                 By {article.attributes.author.data.attributes.name}
               </p>
               <p className="uk-text-meta uk-margin-remove-top">
-                <div>
-                  {article.attributes.published_at}
-                </div>
+                <div>{article.attributes.published_at}</div>
               </p>
             </div>
           </div>

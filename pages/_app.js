@@ -13,8 +13,7 @@ const MyApp = ({ Component, pageProps }) => {
 
   return (
     <>
-      <Head>
-      </Head>
+      <Head></Head>
       <GlobalContext.Provider value={global.attributes}>
         <Component {...pageProps} />
       </GlobalContext.Provider>

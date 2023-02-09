@@ -1,6 +1,8 @@
 import React from "react"
 import Link from "next/link"
 
+const PORTFOLIO_TITLE = "Theo's Portfolio"
+
 const Nav = ({ categories }) => {
   return (
     <div>
@@ -9,7 +11,7 @@ const Nav = ({ categories }) => {
           <ul className="uk-navbar-nav">
             <li>
               <Link href="/">
-                <a>Theo's Portfolio</a>
+                <a>{PORTFOLIO_TITLE}</a>
               </Link>
             </li>
           </ul>
