@@ -4,7 +4,10 @@ import NextImage from "./image"
 
 const Card = ({ article }) => {
   return (
-    (<Link href={`/article/${article.attributes.slug}`} className="uk-link-reset">
+    (<Link
+      href={`/article/${article.attributes.slug}`}
+      className="uk-link-reset"
+    >
 
       <div className="uk-card uk-card-muted">
         <div className="uk-card-media-top">
@@ -21,7 +24,7 @@ const Card = ({ article }) => {
       </div>
 
     </Link>)
-  );
+  )
 }
 
 export default Card

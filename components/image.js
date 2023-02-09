@@ -1,5 +1,5 @@
 import { getStrapiMedia } from "../lib/media"
-import NextImage from "next/image";
+import NextImage from "next/image"
 
 const Image = ({ image, style }) => {
   const { url, alternativeText, width, height } = image.data.attributes
@@ -18,9 +18,10 @@ const Image = ({ image, style }) => {
       style={{
         width: "100%",
         height: "auto",
-        objectFit: "contain"
-      }} />
-  );
+        objectFit: "contain",
+      }}
+    />
+  )
 }
 
 export default Image

@@ -10,9 +10,7 @@ const Nav = ({ categories }) => {
         <div className="uk-navbar-left">
           <ul className="uk-navbar-nav">
             <li>
-              <Link href="/">
-                {PORTFOLIO_TITLE}
-              </Link>
+              <Link href="/">{PORTFOLIO_TITLE}</Link>
             </li>
           </ul>
         </div>
@@ -21,17 +19,20 @@ const Nav = ({ categories }) => {
             {categories.map((category) => {
               return (
                 <li key={category.id}>
-                  <Link href={`/category/${category.attributes.slug}`} className="uk-link-reset">
+                  <Link
+                    href={`/category/${category.attributes.slug}`}
+                    className="uk-link-reset"
+                  >
                     {category.attributes.name}
                   </Link>
                 </li>
-              );
+              )
             })}
           </ul>
         </div>
       </nav>
     </div>
-  );
+  )
 }
 
 export default Nav
