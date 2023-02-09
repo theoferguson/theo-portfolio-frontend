@@ -2,6 +2,10 @@
   "name": "my-next-blog",
   "version": "1.0.3",
   "private": true,
+  "engines": {
+    "node": "16.13.2",
+    "npm": "9.4.2"
+  },
   "scripts": {
     "develop": "next dev",
     "dev": "next",
