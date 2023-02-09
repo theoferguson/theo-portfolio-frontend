@@ -4,7 +4,7 @@
 const nextConfig = {
   images: {
     loader: "default",
-    domains: ["localhost"],
+    domains: ["localhost", "boiling-reaches-68177.herokuapp.com"],
   },
 }
 
