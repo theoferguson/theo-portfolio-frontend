@@ -21,7 +21,7 @@
     "react": "18.2",
     "react-dom": "18.2",
     "react-markdown": "^8.0.5",
-    "react-moment": "^0.9.6"
+    "react-moment": "^0.9.7"
   },
   "license": "MIT",
   "devDependencies": {
