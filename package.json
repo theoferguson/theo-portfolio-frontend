@@ -1,9 +1,6 @@
 {
   "name": "my-next-blog",
   "version": "1.0.3",
-  "engines": {
-    "node": "18.x"
-  },
   "private": true,
   "scripts": {
     "develop": "next dev",
@@ -15,10 +12,9 @@
     "lint:fix": "next lint --fix"
   },
   "dependencies": {
-    "moment": "^2.24.0",
     "next": "^13.x",
     "qs": "^6.10.1",
-    "react": "18.2",
+    "react": "^18.2",
     "react-dom": "18.2",
     "react-markdown": "^8.0.5",
     "react-moment": "^0.9.7"
